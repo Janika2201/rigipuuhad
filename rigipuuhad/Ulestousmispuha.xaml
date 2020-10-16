@@ -5,12 +5,16 @@
              Title="Ulestousmispuha">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#ff99cc">
-            <Image Source="ule.jpg" />
+            <Image x:Name="img" Source="ule.jpg" />
             <Label Text="Ülestõusmispühad (ka lihavõttepühad ehk lihavõtted ja munapühad) on kristluses liikuvad pühad, mis algavad esimese täiskuu pühapäevaga pärast kevadist pööripäeva. Pühad mälestavad Jeesus Kristuse surnust ülestõusmist pärast ristilöömist. Ajaliselt langevad need kokku judaismi paasapühadega. Samale ajale jääb ka maausuliste kiigepüha ehk munapüha." FontAttributes="Bold" Opacity="0.8" BackgroundColor="#f0f5f5"/>
             <Label Text="Ulestousmispuha
                    12. aprill 2020"   BackgroundColor="Aqua"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Vajuta nuppu"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
