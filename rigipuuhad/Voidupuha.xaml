@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rigipuuhad.Voidupuha"
+             Title="Voidupuha">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#cce6ff">
+            <Image x:Name="img" Source="foto9.jpg" />
+            <Label x:Name="label"
+               Text="Teave allpool"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
+            <Label Text="Võidupüha on Eesti riigipüha, mida peetakse 23. juunil alates aastast 1934. Sellega tähistatakse Eesti võitu Võnnu lahingus Landeswehri üle 23. juunil 1919." FontAttributes="Bold" Opacity="0.8" BackgroundColor="#f0f5f5"/>
+            <Label Text=" Voidupuha
+                   23. juuni 2020" BackgroundColor="#999966"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Vajuta nuppu"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
+            <Button Text="Vajuta nuppu"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_1" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

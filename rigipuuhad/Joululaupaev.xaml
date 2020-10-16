@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rigipuuhad.Joululaupaev"
+             Title="Joululaupaev">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#c2ccd6">
+            <Image Source="joul.jpg" />
+            <Label x:Name="label"
+               Text="Teave allpool"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
+            <Label Text="Jõululaupäev (ka: jõuluõhtu) on 24. detsember, päev enne esimest jõulupüha. Eestis on see päev riigipüha. Juliuse kalendri järgi, mida kasutab teiste seas Vene Õigeusu Kirik, langeb see päev praegu (aastatel 1900–2099) 6. jaanuarile." FontAttributes="Bold" Opacity="0.8" BackgroundColor="#f0f5f5"/>
+            <Label Text="Joululaupaev
+                   24. detsember 2020 " BackgroundColor="#996633"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Vajuta nuppu"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

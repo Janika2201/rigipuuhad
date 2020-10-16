@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rigipuuhad.Jaanipaev"
+             Title="Jaanipaev">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="#669999">
+            <Image Source="loke.jpg" />
+            <Label Text="Jaanipäev on Eestis 24. juunil tähistatav püha. 24. juunile eelnevat 23. juuni päeva nimetatakse jaanilaupäevaks ja nendevahelist ööd jaaniööks, seda tähistatakse Eestis, Lätis ja põhjamaades jaanituledega." FontAttributes="Bold" Opacity="0.8" BackgroundColor="#f0f5f5"/>
+            <Label Text="Jaanipaev 
+                   24. juuni 2020 " BackgroundColor="#339933"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

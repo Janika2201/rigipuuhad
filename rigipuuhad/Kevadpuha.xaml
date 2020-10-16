@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rigipuuhad.Kevadpuha"
+             Title="Kevadpuha">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#cc99ff">
+            <Image x:Name="image" Source="kevad.jpg" />
+            <Label Text="Kevadpüha on Eesti riigipüha, mida peetakse 1. mail. Pühaga tähistatakse kevade saabumist. 1. mai kui kevadpüha kattub nii rahvusvahelise töörahvapühaga kui ka Eesti rahvakalendri volbripäevaga." FontAttributes="Bold" Opacity="0.8" BackgroundColor="#f0f5f5"/>
+            <Label Text=" Kevadpuha
+                   01. mai 2020"  BackgroundColor="Beige"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Vajuta nuppu"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rigipuuhad.Suurreede"
+              Title="Suurrede">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#ffcc66">
+            <Image x:Name="img" Source="serkov1.jpg" />
+            <Label Text="Suur reede on kristlik püha, mil tähistatakse Jeesus Kristuse ristilöömist ja surma Kolgata mäel. See kuulub kokku rea teiste pühadega, mis seostuvad Jeesuse eluga. Suur reede eelneb ülestõusmispühadele ning võib langeda kokku juudiusu paasapühadega." FontAttributes="Italic" Opacity="0.7" BackgroundColor="#f0f5f5"/>
+            <Label Text="Suur reede
+                   10. aprill 2020"  BackgroundColor="Beige"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Vajuta nuppu" BackgroundColor="Beige"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rigipuuhad.Iseseisvuspaev"
+             Title="Iseseisvus">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#0099cc">
+            <ImageButton x:Name="img" Source="nezav.jpg"/>
+            <Label x:Name="label"
+               Text="Teave allpool"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
+            <Label Text="Eesti rahvuspüha, mida tähistatakse igal aastal 24. veebruaril auks Eesti iseseisvusdeklaratsiooni vastuvõtmise auks 1918. aastal, mida peetakse Eesti Vabariigi asutamise kuupäevaks." FontAttributes="Bold" Opacity="0.8" BackgroundColor="#f0f5f5"/>
+            <Label Text=" IseseisvusPaev
+                   24. veebruar 2020" BackgroundColor="#999966"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Vajuta nuppu"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
+            <Button Text="Vajuta nuppu"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_1" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

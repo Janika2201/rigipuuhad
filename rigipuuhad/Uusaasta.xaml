@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rigipuuhad.Uusaasta"
+             Title="Uuasta">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#bdccdb">
+            <Image x:Name="Pip" Source="uuasta.jpg" />
+            <Label Text="Uus aasta on peamine kalendripüha, mis toimub ülemineku hetkel aasta viimaselt päevalt järgmise aasta esimesele päevale. Seda tähistavad paljud rahvad vastavalt vastuvõetud kalendrile. Aasta alguse 1. jaanuarist kehtestas Rooma valitseja Julius Caesar 46 eKr." FontAttributes="Bold" Opacity="0.8" BackgroundColor="#f0f5f5"/>
+            <Label Text="01. jaanuar 2020"
+                CharacterSpacing="10"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Klõpsake Nupp" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

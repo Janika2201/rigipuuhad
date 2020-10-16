@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rigipuuhad.Nelipuhade"
+             Title="Nelipuha">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="OliveDrab">
+            <Image x:Name="img" Source="serkov.jpg" />
+            <Label x:Name="label"
+               Text="Teave allpool"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
+            <Label Text="Nelipühad on kristlik püha, millega mälestatakse Püha Vaimu laskumist apostlitele 50 päeva pärast Jeesuse Kristuse ülestõusmist ja 10 päeva pärast taevaminemispüha. See on kiriku sünnipäev.
+Nelipühad on seotud juudi pühaga šavuot, mis tähistab Jumalalt Moosesele Siinai mäel kümne käsu andmist. Šavuoti peetakse seitse nädalat pärast paasapühi ja ta on pärit kaugest paganlikust minevikust, mil tähistati lõikustänupüha." FontAttributes="Bold" Opacity="0.8" BackgroundColor="#f0f5f5"/>
+            <Label Text="Nelipuha
+                   31. mai 2020"  BackgroundColor="#9900cc"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Click to Rotate Text!"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
